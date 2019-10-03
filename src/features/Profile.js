@@ -38,8 +38,8 @@ export const Profile = ({ profile, putData, getData, auth, setLocation, houses }
             </View>
           </View>
           <View style={styles.sectionHeight}>
-            <ScrollView style={{ height: '60%' }}>
-              <View style={{ ...styles.viewPadding, height: '60%' }}>
+            <ScrollView>
+              <View style={styles.viewPadding}>
                 <Button
                   color="#064f2f"
                   uppercase={false}

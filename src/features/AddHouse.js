@@ -180,6 +180,8 @@ const validate = values => {
     errors.availability = 'Required';
   } else if (values.availability.length > 50) {
     errors.availability = 'Must be less than 50 characters';
+  } else if (isNaN(values.availability)) {
+    errors.availability = 'Must be a number';
   }
 
   if (!values.rent) {

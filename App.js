@@ -20,7 +20,6 @@ export default function App() {
               }}>
               <View>
                   <ApplicationHome />
-                  {/*<ReduxTest />*/}
               </View>
           </View>
       </Provider>

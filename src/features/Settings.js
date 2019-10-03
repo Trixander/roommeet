@@ -111,7 +111,6 @@ export const Settings = ({
                   uppercase={false}
                   mode="text"
                   onPress={() => {
-                    // TODO: no op -- need a sign out action
                     handleSignOut(setAuth, setLocation, setFilter);
                   }}>
                   Sign Out

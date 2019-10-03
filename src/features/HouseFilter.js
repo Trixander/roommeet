@@ -108,7 +108,6 @@ const styles = EStyleSheet.create({
   card: {
     padding: '1rem',
     margin: '1rem'
-    //  border: 'none',
   },
 
   buttons: {
@@ -185,15 +184,6 @@ const validate = values => {
   } else if (isNaN(values.maxRent)) {
     errors.maxRent = 'Must be a number';
   }
-
-  /* if (!values.minRent) {
-    errors.rent = 'Required';
-  } else if (parseInt(values.rent, 10) < 200 || parseInt(values.rent, 10) > 3000) {
-    errors.rent = 'Must be 200-3000';
-  } else if (isNaN(values.rent)) {
-    errors.rent = 'Must be a number';
-  } */
-
   return errors;
 };
 
