@@ -23,15 +23,6 @@ export const AddHouse = ({
   const uid = require('uuid/v4');
   let id = uid();
 
-  const [initialized, setInitialized] = useState(false);
-
-  useEffect(() => {
-    if (!initialized) {
-      initialize(editProp ? profile.house : {});
-      setInitialized(true);
-    }
-  });
-
   return (
     <View style={styles.sectionHeight}>
       <ScrollView>
