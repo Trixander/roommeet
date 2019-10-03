@@ -4,7 +4,6 @@ import { createStore, applyMiddleware  } from 'redux';
 import { Provider } from 'react-redux';
 import RootReducer from './src/logic/RootReducer.js';
 import thunk from 'redux-thunk';
-import ReduxTest from './src/shared-components/ReduxTest.js'
 import ApplicationHome from "./src/ApplicationHome";
 import EStyleSheet from 'react-native-extended-stylesheet';
 
